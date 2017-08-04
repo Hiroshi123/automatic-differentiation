@@ -1,20 +1,6 @@
 
 
-module Input
-  (
-
-    samp1,
-    samp2,
-    samp3,
-    samp4,
-    samp5,
-    samp6,
-    samp7,
-    samp8,
-    samp9,
-    samp10
-    
-  ) where
+module Input where
 
 import BasicData
 
@@ -31,7 +17,7 @@ samp4 :: S
 samp4 = M (Lp '(') (Op '*') (V (Var 'x')) (V (Var 'x')) (Rp ')')
 
 samp5 :: S
-samp5 = M (Lp '(') (Op '*') (V (Var 'x')) samp4 (Rp ')')
+samp5 = M (Lp '(') (Op '+') (V (Var 'x')) samp4 (Rp ')')
 
 samp6 :: S
 samp6 = M (Lp '(') (Op '*') samp3 samp4 (Rp ')')

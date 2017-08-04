@@ -1,18 +1,6 @@
 
 
-module BasicData
-  (
-    
-    S(..),
-    Op(..),
-    Lp(..),
-    Rp(..),
-    Nun(..),
-    Var(..),
-    Ans(..),
-    Nn(..)
-    
-  ) where
+module BasicData where
 
 
 data S = M Lp Op S S Rp
