@@ -17,7 +17,7 @@ install Glasgow haskell (GHC) on your computer.
 
 `runghc Main.hs`
 
-or go to interpreter `ghci` then type  `main`
+or go to interpreter `ghci` then type  `main` after `:l Main.hs`
 
 which will show you pairs of original expression & derivatives of 'x'
 
