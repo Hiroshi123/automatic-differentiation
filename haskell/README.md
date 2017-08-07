@@ -3,6 +3,8 @@
 
 Minimum top down Automatic Differentiation 
 
+( addition and multiplication , 1 variable with any degree )
+
 # Feature
 
 Less than 30 lines of code for Automatic differentiation
@@ -13,28 +15,27 @@ Less than 30 lines of code for Automatic differentiation
 
 install Glasgow haskell (GHC) on your computer.
 
-go to interpreter typing 
+`runghc Main.hs`
 
-`ghci`
+or go to interpreter then typing 
 
-&
-
-`main`
+`ghci` & `main`
 
 which will show you pairs of original expression & derivatives of 'x'
 
 Note the last example which has multiple variables does not work out properly.
 
-( Intentionally added for current scope. )
-
+( Intentionally added for indication of current scope. )
 
 # Explanation
 
-For logic on Ad.hs
+For logic on Ad.hs, check slides on /doc/ad_slides.pdf out
 
-Check the slides out on /doc/ad_slides.pdf
+For other code, please refer to the comments in between lines.
 
-For other code, please refer comments in between lines.
+# Comments
+
+I removed Parser ( lex & Syntax analysis ) for brevity.
 
 
 
