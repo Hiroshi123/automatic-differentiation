@@ -17,9 +17,7 @@ install Glasgow haskell (GHC) on your computer.
 
 `runghc Main.hs`
 
-or go to interpreter then typing 
-
-`ghci` & `main`
+or go to interpreter `ghci` then type  `main`
 
 which will show you pairs of original expression & derivatives of 'x'
 
@@ -31,11 +29,11 @@ Note the last example which has multiple variables does not work out properly.
 
 For logic on Ad.hs, check slides on /doc/ad_slides.pdf out
 
-For other code, please refer to the comments in between lines.
+For other code, please refer to the comments in between.
 
 # Comments
 
 I removed Parser ( lex & Syntax analysis ) for brevity.
-
+Any question, suggestion , translation to the other language is super welcome ! \(><)/
 
 
