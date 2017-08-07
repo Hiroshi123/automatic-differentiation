@@ -31,7 +31,9 @@ samp8 = M (Lp '(') (Op '*') samp3 samp6 (Rp ')')
 samp9 :: S
 samp9 = M (Lp '(') (Op '+') samp7 samp8 (Rp ')')
 
+---- which will not work out
+
 samp10 :: S
-samp10 = M (Lp '(') (Op '+') (V (Var 'x')) (V (Var 'y')) (Rp ')')
+samp10 = M (Lp '(') (Op '*') (V (Var 'x')) (V (Var 'y')) (Rp ')')
 
 

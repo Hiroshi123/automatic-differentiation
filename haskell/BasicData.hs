@@ -2,12 +2,9 @@
 
 module BasicData where
 
-
 data S = M Lp Op S S Rp
        | N Nun
        | V Var
-       | A Ans
-       | Non
        deriving (Show)
 
 
